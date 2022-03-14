@@ -77,12 +77,3 @@ class View:
                 break
             print(rank, '.', member[0], ':', chips)
             rank += 1
-
-    # @staticmethod
-    # def get_number(message,low,high):
-    #     response = input(message)
-    #     while not (response.isdigit() and low <= int(response) <= high):
-    #         response = input(message)
-    #     return int(response)
-
-

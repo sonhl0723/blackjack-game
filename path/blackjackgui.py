@@ -1,90 +1,3 @@
-# from tkinter import*
-# from bjcard import Deck
-# from bjhand import *
-# from bjview import *
-# from blackjack import*
-
-# class Login(Frame):
-# 	def __init__(self, master):
-# 		super().__init__(master)
-# 		master.geometry('300x300')
-# 		self.master = master
-# 		self.pack(padx=20, pady=20)
-# 		self.create_widgets()
-
-# 	def create_widgets(self):
-# 		self.title = Label(self, text="Welcome to smash Casino!").grid(row=0, column=1)
-# 		self.name = Label(self, text="Name").grid(row=2, column=1)
-# 		self.login_entry = Entry(self, width=10)
-# 		self.login_entry.grid(row=3, column=1)
-# 		self.button_login = Button(self, text="login", command=self.game_login)
-# 		self.button_login.grid(row=4, column=1)
-# 		self.summary = Text(self, width=20, height=10, wrap=WORD)
-# 		self.summary.grid(row=5, column =1)
-# 		self.button_play = Button(self, text="Play!!", command=self.game_start).grid(row=6, column=1)
-
-# 	def game_login(self):
-# 		name = Play.getName(self.login_entry.get())
-# 		name, tries, wins, chips = View.login(Play.name)
-# 		self.game = BlackjackController(name, chips)
-# 		record = "Name : "+Play.name +"\n"
-# 		record += "Game Tries : "+ str(tries)+"\n"
-# 		record += "Win Games : "+ str(wins)
-# 		# record += "Winning Rate : "+round((str(wins)/str(tries))*100,2)
-# 		self.summary.insert(0.0, record)
-# 		self.button_login.destroy()
-# 		# Game(self.master)
-
-# 	def game_start(self):
-# 		# game = self.game
-# 		# name, tries, wins, chips = View.login(Play.name)
-# 		# while True:
-# 		# 	game.play()
-# 		# 	if not View.ox("Play more, "+ Play.name +"? (o/x) "):
-# 		# 		break
-# 		# print('-----')
-# 		# print('You played', game.tries, 'games and won', game.wins, 'of them.')
-# 		# members = View.load_members()
-# 		# members[Play.name] = (tries+game.tries, wins+game.wins, game.chips)
-# 		# View.store_members(members)
-# 		# View.show_top5()
-# 		# print("Bye, "+Play.name+"!")
-# 		self.destroy()
-# 		Game(self.master)
-# 		# Play.main(Play.name, chips)
-
-# class Game(Frame):
-# 	def __init__(self,master):
-# 		super().__init__(master)
-# 		master.geometry('400x400')
-# 		# self.pack(padx=20,pady=20)
-# 		self.pack()
-# 		self.create_widgets()
-# 		Label(self,text="Dealer").grid(row=0,column=1)
-# 		Label(self,text="Player").grid(row=4,column=1)
-# 		wall=PhotoImage(file="casino.gif")
-# 		wall_label=Label(image=wall)
-# 		wall_label.place(x=0,y=0)
-
-
-
-# 	def create_widgets(self):
-# 		# image = Image.open("casino.gif")
-# 		image = image.resize((250, 250), Image.path)
-# 		self.imageP = ImageTk.PhotoImage(image)
-# 		l = Label(self, image=self.imageP)
-# 		l.image = self.imageP
-# 		l.grid()
-
-# 		PhotoImage(file=path)
-# 		file="{}{}.gif".format(number,symbol)
-
-# root=Tk()
-# root.title("Blackjack")
-# root.geometry("300x300")
-# Login(root)
-# root.mainloop()
-
 from tkinter import*
 import os
 from PIL import Image, ImageTk
@@ -461,12 +374,6 @@ class Game(Frame):
         self.deck_photo=PhotoImage(file="back192.gif")
         self.dealer_space = Label(self,text="Dealer's card",width=10,bg="black", fg="white")
         self.dealer_space.grid(row=0,column=0)
-
-        # self.s = self.__deck.pop()
-        # self.deck_photo1 = PhotoImage(file=self.__deck[0][1])
-        # self.out_photo1 = Label(self,image=self.deck_photo1)
-        # self.out_photo1.grid(row=50,column=0)
-
 
         self.deck_button = Button(self,image = self.deck_photo,command=self.hit)
         self.deck_button.grid(row=150,column=0,pady=70)
