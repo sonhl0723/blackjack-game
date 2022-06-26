@@ -1,7 +1,6 @@
 # Blackjack Game
 
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
-<img alt="Tkinter" src ="https://img.shields.io/badge/Tkinter-FF0000.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/> <img alt="Tkinter" src ="https://img.shields.io/badge/Tkinter-FF0000.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
 <br>
 
 ## 게임 룰
@@ -18,20 +17,20 @@
 > [블랙잭 게임 설명](https://namu.wiki/w/%EB%B8%94%EB%9E%99%EC%9E%AD%EC%B9%B4%EB%93%9C%EA%B2%8C%EC%9E%84)
 
 ## 실행 방법
-1. play.py 파일 실행
-2. Player 이름 입력 후 Play 버튼 클릭
+1. __play.py 파일 실행__
+2. __Player 이름 입력 후 Play 버튼 클릭__
 > 새로운 Player가 등록되면 사용자 로컬에 members.txt 파일이 생성됨<br>
 > 모든 플레이 기록이 해당 텍스트 파일에 저장됨
 <p align="center"><img src="./readme_img/main_img.png" width="40%" height="40%">
 
-3. Player는 가운데 뒤집힌 카드 이미지를 클릭하여 카드를 받을 수있으며 카드를 받고 싶지 않은 경우 stop 이미지를 클릭하여 게임을 종료할 수 있음
-<p align="center"><img src="./readme_img/play_img.png" width="40%" height="40%">
+3. __Player는 가운데 뒤집힌 카드 이미지를 클릭하여 카드를 받을 수있으며 카드를 받고 싶지 않은 경우 stop 이미지를 클릭하여 게임을 종료할 수 있음__
+<p align="center"><img src="./readme_img/play_img.png" width="30%" height="30%">
 
-4. 게임이 종료되면 Player는 게임 결과를 제공받음<br>
-<img src="./readme_img/win_img.png" width="200px"></img>
-<img src="./readme_img/draw_img.png" width="200px"></img>
-<img src="./readme_img/lose_img.png" width="200px"></img>
-<img src="./readme_img/burst_img.png" width="200px"></img>
+4. __게임이 종료되면 Player는 게임 결과를 제공받음<br>__
+<img src="./readme_img/win_img.png" width="220px"></img>
+<img src="./readme_img/draw_img.png" width="220px"></img>
+<img src="./readme_img/lose_img.png" width="220px"></img>
+<img src="./readme_img/burst_img.png" width="220px"></img>
 
-5. 게임 종료 후 게임을 다시 시작하고 싶으면 Replay 이미지, 프로그램을 종료하고 싶으면 Exit 이미지를 클릭
-<p align="center"><img src="./readme_img/end_img.png" width="40%" height="40%">
+5. __게임 종료 후 게임을 다시 시작하고 싶으면 Replay 이미지, 프로그램을 종료하고 싶으면 Exit 이미지를 클릭__
+<p align="center"><img src="./readme_img/end_img.png" width="30%" height="30%">
