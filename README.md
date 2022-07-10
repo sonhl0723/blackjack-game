@@ -1,6 +1,4 @@
-# Blackjack Game
-
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/> <img alt="Tkinter" src ="https://img.shields.io/badge/Tkinter-FF0000.svg?&style=for-the-badge&logo=Python&logoColor=white"/>
+# Blackjack Game <img alt="Python" src ="https://img.shields.io/badge/python-informational"/> <img alt="Python" src ="https://img.shields.io/badge/tkinter-red"/>
 <br>
 
 ## 게임 룰
