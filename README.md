@@ -1,5 +1,4 @@
 # Blackjack Game <img alt="Python" src ="https://img.shields.io/badge/python-informational"/> <img alt="Python" src ="https://img.shields.io/badge/tkinter-red"/>
-<br>
 
 ## 게임 룰
 >카드를 딜러와 플레이어 각자 2장씩 나눠준다.<br>
